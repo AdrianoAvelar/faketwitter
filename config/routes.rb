@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
  
+  devise_for :users
  #Define as rotas para as páginas.
   #get 'pages/index'
   
