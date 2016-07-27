@@ -1,7 +1,10 @@
 <% if !user_signed_in? %>
     <style>
         body {
-            background:url("http://wallpapercave.com/wp/lCpMscl.jpg") no-repeat center center fixed;
+            background: linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+            ),url("http://wallpapercave.com/wp/lCpMscl.jpg") no-repeat center center fixed;
               -webkit-background-size: cover;
               -moz-background-size: cover;
               -o-background-size: cover;
@@ -37,7 +40,7 @@
         }
         .footer-links {
             text-align: center;
-            color:black;
+            color:white;
             margin-top: 30%;
             font-size: 90%;
             
@@ -54,6 +57,10 @@
                 Transformando a sala de aula em um incrível jogo.<br/>
                 No GeekCraft você ganha pontos, evolui seu perfonagem<br/>
                 e troca Gold Points (GP) por Geek Dóllar (GD).
+                 <br/> 
+                  <br/> 
+                  <h1>Em Construção.</h1>
+                
                 
             </p>
         
@@ -61,10 +68,10 @@
         </div>
         <div class="col-sm-6" >
             <div class="log-in panel">
-            
+            Login
             </div>
             <div class="sign-up panel">
-            
+            Signup
             </div>
             
         </div>
@@ -77,6 +84,6 @@
     
 <% else %>
 
-Signed In
+    <script>document.location = "/home"</script>
 
 <% end %>
