@@ -1,0 +1,89 @@
+<% if !user_signed_in? %>
+    <style>
+        body {
+            background: linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+            ),url("http://wallpapercave.com/wp/lCpMscl.jpg") no-repeat center center fixed;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+        }
+        
+        h1 {
+            text-shadow: 2px 2px 8px #dddddd;
+            color:white;
+            
+        }
+        
+        .container-index {
+            margin-right: 15%;
+            margin-left: 15%;
+            font-weight:bold;
+        }
+        .text {
+            color:white;
+            font-weight: 300;
+            font-size: 150%;
+        }
+        .log-in {
+            float: right;
+            width: 300px;
+            height: 150px;
+            margin-top: 5%;
+        }
+        .sign-up {
+            float: right;
+            width: 300px;
+            height: 250px;
+        }
+        .footer-links {
+            text-align: center;
+            color:white;
+            margin-top: 30%;
+            font-size: 90%;
+            
+        }
+       
+    </style>
+   
+    <div class="container-index row">
+        
+        <div class="col-sm-6" >
+            <h1>Bem vindo ao GeekCraft</h1>
+            <p class="text">
+                <br/> 
+                Transformando a sala de aula em um incrível jogo.<br/>
+                No GeekCraft você ganha pontos, evolui seu perfonagem<br/>
+                e troca Gold Points (GP) por Geek Dóllar (GD).
+                 <br/> 
+                  <br/> 
+                  <h1>Em Construção.</h1>
+                
+                
+            </p>
+        
+        
+        </div>
+        <div class="col-sm-6" >
+            <div class="log-in panel">
+            Login
+            </div>
+            <div class="sign-up panel">
+            Signup
+            </div>
+            
+        </div>
+        
+        <div class="col-sm-12">
+            <p class="footer-links">About   Help   Blog  Status @ 2016 GeekCraft</p>
+        </div>
+    
+    </div>
+    
+<% else %>
+
+    <script>document.location = "/home"</script>
+
+<% end %>

@@ -28,3 +28,46 @@ body{
     position: absolute;
     left: 50%;
 }
+
+
+.post-panel {
+
+	margin-top: -21px;
+	margin-bottom: -10px;
+}
+
+.post-title {
+	text-align: left;
+	margin-left: 15px;
+	
+}
+
+.post-content {
+	text-align: left;
+	margin-left: 15px;
+	
+}
+
+.post-creation{
+	opacity:0.65;
+}
+
+.post-owner {
+	color:black;
+	font-weight:bold;
+}
+.post-links{
+	text-align:left;
+}
+
+.g-links {
+	font-size:120%;
+	margin-right: 75px;
+	opacity:0.7;
+}
+
+.post-view-conversation {
+	font-size:80%;
+	text-align: right;
+
+}

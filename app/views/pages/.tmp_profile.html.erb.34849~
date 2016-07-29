@@ -16,27 +16,15 @@
         </div>
         
     </div>
-      
+    
+   
     <div class="col-xs-6">
-        <%= render '/posts/post_form' %></br>
+        <%= render '/posts/post_form' %>
         
          <% for @p in @posts %>
-            <div class="panel panel-default post-panel">
+            <div class="panel panel-default">
                 <div class="panel-body">
-                	<div class="col-sm-1">
-                		
-						Avatar
-                	</div>
-                    <div class="col-sm-11">
-                		  Algo
-						
-                	</div>
-					
-					<div class="col-sm-12">
-                		Links
-						
-                	</div>
-					
+                    <p><%= @p.content %></p>
                 </div>
             </div>
         <% end %>

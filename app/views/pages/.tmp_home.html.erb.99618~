@@ -16,9 +16,7 @@
     </div>
    <div class="col-xs-6">
    	 <div class="panel panel-default post-panel">
-   	 	<div class="panel-body row" style="margin-bottom=12px;" >
    		<%= render 'posts/post_form'%>
-		</div>
 		</div>
          <% for @p in @posts %>
             <div class="panel panel-default post-panel">
@@ -40,33 +38,19 @@
 							<span class="glyphicon glyphicon-heart g-links" aria-hidden="true"></span>
 							<span class="glyphicon glyphicon-option-horizontal g-links" aria-hidden="true"></span>
 							<span class="post-view-conversation"><a href="">view convertation</a></span>
-						</p>
+
+
+							</p>
                 	</div>
 				
                 </div>
             </div>
         <% end %>
-		<div class="panel panel-default post-panel">
-            <div class="panel-body row">
-                <div class="col-sm-12" ">
-					<center>
-						<img src="/bird.png" height="20px" width="30px"></img>
-						<a href="#top"><p class="opacity: .7;">
-							
-							Back to Top <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
-						</a></p>
-					</center>
-				</div>
-			</div>	
-		</div>
-		
     </div>
     <div class="col-xs-3">
         <div class="panel panel-default">
             <div class="panel-body">
-                <p style="opacity:0.5;font-size: 90%">About   Help   Blog  Status @ 2016 GeekCraft</p>
-				
-        </button>
+                <p>about</p>
             </div>
         </div>
         
