@@ -6,5 +6,10 @@ class User < ActiveRecord::Base
          
          
          #Ajudar a achar os posts específicos de um usuários.
-         has_many :posts
+       #  has_many :posts, dependent: :destroy# Se um usuário for removido seus posts serão deletados
+        # has_many :active_relationships, class_name: "Relationship", foreign_key: "follower_id", dependent: destroy
+       #  has_many :following, through: :active_ralationships, source: followed
+         
+      #   def follow(other)
+         #  active_ralationships
 end

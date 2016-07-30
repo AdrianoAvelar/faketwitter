@@ -18,7 +18,7 @@
 @import "bootstrap";
 
 body{
-     background-color: rgba(180,216,180,0.25);
+     background-color: rgba(244,251,255,1);
 }
 .navbar {
     background-color: white;
@@ -70,4 +70,33 @@ body{
 	font-size:80%;
 	text-align: right;
 
+}
+
+.panel-image-previewAAA {
+	height: 10%;
+	width: 100%;
+
+}
+
+.panel-image-preview {
+    height:120px;
+	width:100%;
+}
+
+.rounded-border {
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    #padding: 20px; 
+    #width: 200px;
+    #height: 150px; 
+}
+
+.p-small {
+    line-height: 50%;
+}
+
+.p-big-blue {
+	font-size:110%;
+	color: rgba(22,180,230,1);
+	font-weight:bold;
 }
